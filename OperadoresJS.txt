@@ -1,0 +1,60 @@
+Operadores JavaScript:
+5 + 2 = 7 soma
+5 - 2 = 3 subtração
+5 * 2 = 10 multiplicação 
+5 / 2 = 2.5 divisão 
+5 % 2 = 1 resto da divisão inteira
+5 ** 2 = 25 potenciação
+
+Precedencia 
+( ) -> ** -> * / % -> + -
+(* / %) fazer quem aparecer primeiro
+
+Simplificando 
+var n = 3
+n = n + 4
+n += 4 (Simplificado)
+
+Incremento 
+var x = 5
+x = x + 1 -> x += 1 -> x ++
+x = x - 1 -> x -= 1 -> x --
+
+Operadores relacionais
+5 > 2 true 
+7 < 4 false 
+8 >= 8 true
+9 <= 7 false
+5 == 5 true
+4 != false (! diferente)
+
+Operador identidade
+5 == 5 -> true
+5 == '5' -> true
+5 === '5' -> false 
+5 === 5 -> true
+5 !== '5' -> true
+
+Operadores lógicos 
+! negação (true, false)
+
+&& conjunção (e)
+true && true -> true
+true && false -> false
+false && false -> false
+false && true -> false
+
+|| disjunção (ou)
+true || true -> true
+true || false -> true 
+false || true -> true 
+false || false -> false
+ 
+Ordem ! -> && -> ||
+
+Precedencia 
+() ** / --> > < >= --> ! --> && --> || --> ? :
+
+Operador ternário (3 operandos) 
+teste ? true : false
+méda >= 7 ? "aprovado" : "reprovado" 
